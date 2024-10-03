@@ -1,0 +1,23 @@
+Hi here I have uploaded the full flow of the request..
+
+in simple way
+Client request → DNS resolution → Packet created → Sent to router → Router checks routing table → Packet forwarded to destination via hops → Server processes and responds → Response packet travels back through routers → Delivered to your device
+
+Detailed...
+
+Client request → Your device (like a phone or computer) asks for a website (using HTTP/HTTPS) → It creates a connection using its IP address and a port (like a "door" to talk through) →
+DNS resolution → Your device needs to find the website’s IP address → It asks a DNS server (like an address book for the internet) → The DNS server finds the website's IP (e.g., 192.168.1.1) and sends it back to your device →
+
+
+Packet created → Your device wraps the request into a small packet (like an envelope) → The packet has a source (your IP address) and a destination (website’s IP) → The packet is ready to travel over the internet →
+
+
+Router checks routing table → The packet reaches your home or office router → The router looks at its routing table (like a map) to decide the best path to send the packet → The router forwards the packet to another router on the internet (starting its journey) →
+Packet forwarded to destination → The packet travels through several routers (hops) on its way to the website → Each router checks where to send it next until it reaches the destination server (the website) →
+
+
+Server processes request → The website’s server gets your packet, opens it, and sees what you requested (like a webpage) → The server prepares a response and wraps it in a new packet →
+Response packet travels back → The new packet goes back through routers (following a similar path in reverse) → It reaches your router →
+
+
+Delivered to your device → The router sends the packet to your device → Your device opens it and shows you the webpage (in your browser).
